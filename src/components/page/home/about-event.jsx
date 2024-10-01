@@ -1,6 +1,7 @@
 import { useState } from "react";
 import AboutImage from "../../../assets/images/AboutImage.png";
 import EventImage from "../../../assets/images/event.jpg"
+import ReactImage from "../../../assets/images/react.jpg";
 
 const AboutEvent = () => {
   const [name, setName] = useState("");
@@ -50,7 +51,7 @@ const AboutEvent = () => {
         </div>
       </div>
       <div className="   w-full flex justify-center items-center"> 
-        <img src={EventImage} className=" h-60 w-[80%] object-contain"/>
+        <img src={ReactImage} alt="React image" className=" h-60 w-[80%] object-contain"/>
       </div>
     </div>
   );
